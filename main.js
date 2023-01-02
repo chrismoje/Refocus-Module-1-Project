@@ -14,7 +14,7 @@ export var newsList = [
   "Decoder: Armenia in a bind as Ukraine war resets global order",
   "What books should an aspiring journalist read?",
   "Marie Colvin shined a light on war-torn corners of the world"
-  //"I am a cool web developer" // array added during testing
+  //"I am a cool web developer" // TEST CODE-1 array added during testing
 ];
 
 export function search() {
@@ -23,7 +23,7 @@ export function search() {
 
   // change inputValue when doing test
 
-//const inputValue = "web developer"; // use this input value during testing
+//const inputValue = "web developer"; // TEST CODE-2 use this input value during testing
 
 
   //Write your code here for the search function
@@ -38,8 +38,8 @@ export function search() {
       }
   })
   
-  return matchingStrings; // use this return when doing the actual html searching
- // return matchingStrings.toString(); // convert the array into a string for testing
+ return matchingStrings; // use this return when doing the actual html searching
+ // return matchingStrings.toString(); // TEST CODE-3 convert the array into a string for TESTING
 }
 
 export function sort(type) {
